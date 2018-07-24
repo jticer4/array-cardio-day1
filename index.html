@@ -35,6 +35,12 @@
 
 			// Array.prototype.map()
 			// 2. Give us an array of the inventors' first and last names
+
+			//create a variable fullNames to store the fist and last names concatenated together
+			const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+			//console log the result
+			console.log(fullNames);
+
 			// Array.prototype.sort()
 			// 3. Sort the inventors by birthdate, oldest to youngest
 			// Array.prototype.reduce()
